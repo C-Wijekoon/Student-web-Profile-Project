@@ -1,0 +1,120 @@
+.container{
+    background-color: rgb(215, 222, 229);
+    background-size: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.topnav {
+    background-color: rgb(84, 85, 85);
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+   
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-right: 40px;
+}  
+.topnav a.active {
+    border-radius: 100px;
+    background-color: #838685;
+    color: white;
+}
+
+.topnav a:hover {
+    border-radius: 100px;
+    background-color: #ddd;
+    color: black;
+}
+
+.name{
+    float: left;
+    color: antiquewhite;
+    padding-left: 20px;
+    padding-right: 200px;
+    margin-right: 350px;
+}  
+.ProfileIMG{ 
+    float: left;
+    margin:20px 20px 2px 450px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+h2,
+p,
+h3{
+    color: rgb(25, 24, 24);
+    text-align: center;
+}
+
+.Education {
+    margin-top: 70px;
+    color: rgb(25, 24, 24);
+    text-align: center;
+}
+.sub{
+   display: flex;
+   margin-left: 20px;
+  
+ 
+}
+
+.Royal{
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 170px;
+
+}
+.Royal01{
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 170px;
+}
+.Royal02{
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 170px;
+}
+.Royal:hover{
+    background-color: #fbfffd;
+    border-radius: 30px;
+}
+.Royal01:hover{
+    background-color: #fbfffd;
+    border-radius: 30px;
+}
+
+
+img{
+    border-radius: 20px;
+    border-color: aliceblue;
+
+}
+
+.section{
+   margin-top: 50px;
+   text-align: center;
+   
+}
+
+
+.footer{
+    margin-top: 60px;
+    background-color: rgb(234, 229, 208);
+    padding: 20px 20px 20px 50px;
+
+}
+
+.copyright{
+    color: rgb(37, 36, 34);
+    font-weight: bold;
+    text-align: center;
+}
