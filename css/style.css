@@ -1,4 +1,4 @@
-.container{
+.container {
     background-color: rgb(215, 222, 229);
     background-size: auto;
     align-items: center;
@@ -10,8 +10,8 @@
     overflow: hidden;
     position: sticky;
     top: 0px;
-   
 }
+
 .topnav a {
     float: left;
     color: #f2f2f2;
@@ -19,8 +19,9 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    padding-right: 40px;
-}  
+    padding-right: 20px; /* Adjust padding for smaller screens */
+}
+
 .topnav a.active {
     border-radius: 100px;
     background-color: #838685;
@@ -33,16 +34,17 @@
     color: black;
 }
 
-.name{
+.name {
     float: left;
     color: antiquewhite;
-    padding-left: 20px;
-    padding-right: 200px;
-    margin-right: 350px;
-}  
-.ProfileIMG{ 
+    padding-left: 10px; /* Adjust padding for smaller screens */
+    padding-right: 10px; /* Adjust padding for smaller screens */
+    margin-right: 10px; /* Adjust margin for smaller screens */
+}
+
+.ProfileIMG {
     float: left;
-    margin:20px 20px 2px 250px;
+    margin: 20px 20px 2px 10px; /* Adjust margin for smaller screens */
     border-radius: 50%;
     align-items: center;
     justify-content: center;
@@ -50,71 +52,86 @@
 
 h2,
 p,
-h3{
+h3 {
     color: rgb(25, 24, 24);
     text-align: center;
 }
 
 .Education {
-    margin-top: 70px;
+    margin-top: 20px; /* Adjust margin for smaller screens */
     color: rgb(25, 24, 24);
     text-align: center;
 }
-.sub{
-   display: flex;
-   margin-left: 20px;
-  
- 
+
+.sub {
+    display: flex;
+    margin-left: 10px; /* Adjust margin for smaller screens */
 }
 
-.Royal{
-    padding-left: 100px;
-    padding-top: 20px;
-    padding-right: 100px;
+.Royal {
+    padding: 20px; /* Adjust padding for smaller screens */
+}
 
-}
-.Royal01{
-    padding-left: 100px;
-    padding-top: 20px;
-    padding-right: 100px;
-}
-.Royal02{
-    padding-left: 100px;
-    padding-top: 20px;
-    padding-right: 170px;
-}
-.Royal:hover{
-    background-color: #fbfffd;
-    border-radius: 30px;
-}
-.Royal01:hover{
+.Royal:hover {
     background-color: #fbfffd;
     border-radius: 30px;
 }
 
-
-img{
+img {
     border-radius: 20px;
     border-color: aliceblue;
-
 }
 
-.section{
-   margin-top: 50px;
-   text-align: center;
-   
+.section {
+    margin-top: 20px; /* Adjust margin for smaller screens */
+    text-align: center;
 }
 
-
-.footer{
-    margin-top: 60px;
+.footer {
+    margin-top: 20px; /* Adjust margin for smaller screens */
     background-color: rgb(234, 229, 208);
-    padding: 20px 20px 20px 50px;
-
+    padding: 20px;
 }
 
-.copyright{
+.copyright {
     color: rgb(37, 36, 34);
     font-weight: bold;
     text-align: center;
+}
+
+/* Media Query for smaller screens (adjust the max-width as needed) */
+@media only screen and (max-width: 600px) {
+    .topnav a {
+        padding-right: 10px;
+    }
+
+    .name {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-right: 5px;
+    }
+
+    .ProfileIMG {
+        margin: 20px 10px 2px 10px;
+    }
+
+    .Education {
+        margin-top: 10px;
+    }
+
+    .sub {
+        margin-left: 5px;
+    }
+
+    .Royal {
+        padding: 10px;
+    }
+
+    .section {
+        margin-top: 10px;
+    }
+
+    .footer {
+        margin-top: 10px;
+    }
 }
